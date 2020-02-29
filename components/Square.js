@@ -12,12 +12,15 @@ export default function Square({ gamer, onclick }) {
 
 const styles = StyleSheet.create({
   square: {
-    borderColor: '#edff8f',
+    borderColor: '#FA03D8',
     borderWidth: 2,
     borderRadius: 15,
     width: 100,
     height: 100,
-    backgroundColor: '#ff9668',
+    margin: 5,
+    backgroundColor: '#F794FE',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
 

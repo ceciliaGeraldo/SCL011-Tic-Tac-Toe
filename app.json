@@ -1,9 +1,12 @@
 {
   "expo": {
-    "name": "my-game",
-    "slug": "my-game",
+    "name": "Bimo&Jake",
+    "slug": "bimo-jake",
     "privacy": "public",
     "sdkVersion": "36.0.0",
+    "description": "Tic-tac-toe inspirado en hora de aventuras. Un juego para niños, interactivo, intuitivo y sin mucho texto. El juego es para dos jugadores, un recuadro en la parte superior al tablero indica ilustrativamente el jugador en turno a mover. Al existir ganador indica quién ganó y si existe un empate, nos invita a jugar una nueva partida.",
+    "githubUrl": "https://github.com/ceciliaGeraldo/SCL011-Tic-Tac-Toe",
+    "primaryColor": "#FEDE33",
     "platforms": [
       "ios",
       "android",
@@ -15,7 +18,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FEDE33"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -25,6 +28,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ceciliaGeraldo.BimoJake"
     }
   }
 }
